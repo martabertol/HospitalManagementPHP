@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+nav{
+    position:fixed;
+    background-color: skyblue;
+    height:70px;
+    width:100%;
+    z-index:10;
+}
+
+.logo{
+    color:red;
+    font-size:25px;
+    position:relative;
+    left:5%;
+    line-height:70px;
+}
+ul{
+    position:relative;
+    float:right;
+    margin-right:20px;
+}
+ul li{
+    display:inline-block;
+    line-height:70px;
+    margin:0 5px;
+    color:white;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size:17px;
+    color:inherit;
+    display:block;
+    width:100%;
+}
